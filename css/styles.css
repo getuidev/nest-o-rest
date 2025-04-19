@@ -141,13 +141,14 @@ img{max-width:100%;height:inherit}
 .hotelNestorest_Facilities .hotelNestorest_Facilities__image img{display:block;width:100%;border-radius:8px}
 .hotelNestorest_Facilities .nestorest-head__cat{justify-content:left}
 .hotelNestorest_Facilities .nestorest-head .h2{text-align:left}
-.rooms-suits-nestorest{padding:50px 0;background-color:#ffff;position:relative;overflow:hidden}
-.rooms-suits-nestorest::before{content:'';background:#fcf5ee;width:100%;height:340px;position:absolute;left:0;bottom:0}
-.rooms-suits-nestorest .container{position:relative}
-.rooms-suits-nestorest__list .swiper-slide{border:1px solid #9d733c;background-color:#fff;padding:15px}
-.rooms-suits-nestorest__list .swiper-slide img{width:100%;display:block;margin-bottom:20px}
-.rooms-suits-nestorest .slide-content h3{color:#9d733c;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:#9d733c;font-size:24px;font-weight:400;margin-bottom:13px}
-.rooms-suits-nestorest .slide-content p{font-family:Outfit,sans-serif;font-size:16px;font-weight:400;line-height:24px}
+.rooms-suits-nestorest{padding:50px 0 0 0;background-color:#ffff}
+.rooms-suits-nestorest__list__item{background-color:#faf7f2;display:grid;grid-template-columns:584px 1fr;margin-bottom:40px;padding:30px;gap:30px}
+.rooms-suits-nestorest__list__image__slider img{display:block;width:100%}
+.rooms-suits-nestorest__list__text h2{color:#9d733c;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:#9d733c;font-size:38px;font-weight:400;margin-bottom:10px}
+.rooms-suits-nestorest__list__text img{width:260px;height:13px;display:block}
+.rooms-suits-nestorest__list__text p{font-family:Outfit,sans-serif;font-size:18px;font-weight:400;line-height:28px;color:#000;margin-top:10px}
+.hotelRoomsSlider .swiper-pagination-bullet{background-color:#fff;width:10px;height:10px;opacity:1}
+.hotelRoomsSlider .swiper-pagination-bullet-active{background-color:#9d733c}
 .wildlife-safari_Detail{position:relative;padding:50px 0;overflow:hidden}
 .wildlife-safari_Detail::before{content:'';background-image:url(../images/section-bg-1.png);background-repeat:no-repeat;width:570px;height:400px;position:absolute;right:0;bottom:0}
 .wildlife-safari_Detail .container{display:grid;grid-template-columns:1fr 472px;gap:100px}
@@ -215,6 +216,8 @@ body.menu-open .header-menu__nav{left:0}
 .hotelNestorest_Facilities__content__item__list__item__icon{text-align:center}
 .hotelNestorest_Facilities__content__item__list__item__text h3{text-align:center}
 .hotelNestorest_Facilities__content__item__list__item__text p{text-align:center}
+.rooms-suits-nestorest__list__item{display:block;padding:15px;margin-bottom:20px}
+.rooms-suits-nestorest__list__image__slider{margin-bottom:20px}
 .footer-main__content__item:nth-child(1){padding-right:0}
 .footer-main__content__item:nth-child(3){padding-left:0}
 .footer-main__content__item:nth-child(2){margin:0 -15px}
