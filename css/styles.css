@@ -149,6 +149,9 @@ img{max-width:100%;height:inherit}
 .rooms-suits-nestorest__list__text p{font-family:Outfit,sans-serif;font-size:18px;font-weight:400;line-height:28px;color:#000;margin-top:10px}
 .hotelRoomsSlider .swiper-pagination-bullet{background-color:#fff;width:10px;height:10px;opacity:1}
 .hotelRoomsSlider .swiper-pagination-bullet-active{background-color:#9d733c}
+.hotelPhoto_Gallery{padding-top:50px;width:100%;overflow:hidden}
+.hotelPhoto_Gallery .swiper-button-next,.hotelPhoto_Gallery .swiper-button-prev{width:48px;height:48px;border-radius:48px;background-color:#fff}
+.hotelPhoto_Gallery .swiper-button-next::after,.hotelPhoto_Gallery .swiper-button-prev::after{font-size:18px;font-weight:700;color:#000}
 .wildlife-safari_Detail{position:relative;padding:50px 0;overflow:hidden}
 .wildlife-safari_Detail::before{content:'';background-image:url(../images/section-bg-1.png);background-repeat:no-repeat;width:570px;height:400px;position:absolute;right:0;bottom:0}
 .wildlife-safari_Detail .container{display:grid;grid-template-columns:1fr 472px;gap:100px}
@@ -218,6 +221,7 @@ body.menu-open .header-menu__nav{left:0}
 .hotelNestorest_Facilities__content__item__list__item__text p{text-align:center}
 .rooms-suits-nestorest__list__item{display:block;padding:15px;margin-bottom:20px}
 .rooms-suits-nestorest__list__image__slider{margin-bottom:20px}
+.hotelPhoto_Gallery{padding:30px 0}
 .footer-main__content__item:nth-child(1){padding-right:0}
 .footer-main__content__item:nth-child(3){padding-left:0}
 .footer-main__content__item:nth-child(2){margin:0 -15px}
