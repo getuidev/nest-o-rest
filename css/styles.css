@@ -60,7 +60,8 @@ img{max-width:100%;height:inherit}
 .partners-nestorest .container{position:relative}
 .partners-nestorest__list .swiper-slide{border:1px solid #9d733c;background-color:#fff;padding:15px;height:initial}
 .partners-nestorest__list .swiper-slide img{width:100%;display:block;margin-bottom:20px}
-.partners-nestorest .slide-content h3{color:#9d733c;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:#9d733c;font-size:24px;font-weight:400;margin-bottom:13px}
+.partners-nestorest .slide-content h3{color:#9d733c;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:#9d733c;font-size:24px;font-weight:400;margin-bottom:5px}
+.partners-nestorest .slide-content small{font-family:Outfit,sans-serif;font-size:14px;font-weight:400;line-height:24px;color:#9d733c;margin-bottom:5px;display:block;}
 .partners-nestorest .slide-content p{font-family:Outfit,sans-serif;font-size:16px;font-weight:400;line-height:24px}
 #multiSlideSwiper{padding-bottom:35px}
 #multiSlideSwiper .swiper-pagination{bottom:0}
@@ -118,7 +119,8 @@ img{max-width:100%;height:inherit}
 .aboutNestorest_Hotels__content:nth-child(even) .aboutNestorest_Hotels__content__image{order:1}
 .aboutNestorest_Hotels__content__image img{display:block;width:100%}
 .aboutNestorest_Hotels__content__text{padding:50px}
-.aboutNestorest_Hotels__content__text h2{color:#9d733c;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:#9d733c;font-size:48px;font-weight:400;margin-bottom:17px}
+.aboutNestorest_Hotels__content__text h2{color:#9d733c;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:#9d733c;font-size:48px;font-weight:400;margin-bottom:8px}
+.aboutNestorest_Hotels__content__text small{color:#9d733c;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:#9d733c;font-size:16px;font-weight:400;margin-bottom:8px}
 .aboutNestorest_Hotels__content__text img{width:260px;height:13px;display:block}
 .aboutNestorest_Hotels__content__text p{font-family:Outfit,sans-serif;font-size:18px;font-weight:400;line-height:28px;color:#000;margin:40px 0}
 .aboutNestorest_Hotels__content__text .btn{color:#fff;font-family:Outfit,sans-serif;font-size:14px;font-weight:500;text-transform:capitalize;background-color:#aa8453;border-radius:100px;display:inline-grid;grid-template-columns:1fr 30px;align-items:center;gap:10px;width:144px;height:48px;justify-items:center;padding:0 9px}
