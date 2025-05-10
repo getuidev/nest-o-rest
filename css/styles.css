@@ -61,7 +61,7 @@ img{max-width:100%;height:inherit}
 .partners-nestorest__list .swiper-slide{border:1px solid #9d733c;background-color:#fff;padding:15px;height:initial}
 .partners-nestorest__list .swiper-slide img{width:100%;display:block;margin-bottom:20px}
 .partners-nestorest .slide-content h3{color:#9d733c;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:#9d733c;font-size:24px;font-weight:400;margin-bottom:5px}
-.partners-nestorest .slide-content small{font-family:Outfit,sans-serif;font-size:14px;font-weight:400;line-height:24px;color:#9d733c;margin-bottom:5px;display:block;}
+.partners-nestorest .slide-content small{font-family:Outfit,sans-serif;font-size:14px;font-weight:400;line-height:24px;color:#9d733c;margin-bottom:5px;display:block}
 .partners-nestorest .slide-content p{font-family:Outfit,sans-serif;font-size:16px;font-weight:400;line-height:24px}
 #multiSlideSwiper{padding-bottom:35px}
 #multiSlideSwiper .swiper-pagination{bottom:0}
@@ -133,6 +133,9 @@ img{max-width:100%;height:inherit}
 .hotelNestorest_Desc__content__item .nestorest-head__cat{justify-content:left}
 .hotelNestorest_Desc__content__item .nestorest-head .h2{text-align:left}
 .hotelNestorest_Desc__content__item p{color:#000;font-family:Outfit;font-size:18px;font-weight:400;line-height:30px}
+.hotelNestorest_Desc__left .hotelNestorest_Desc__content__item{position:relative;padding:0 15px 15px 0}
+.hotelNestorest_Desc__left .hotelNestorest_Desc__content__item::after{content:"";display:block;width:298px;height:298px;position:absolute;right:0;bottom:0;background-color:#fff;border:2px solid #9d733c;z-index:-1}
+.hotelNestorest_Desc__left .hotelNestorest_Desc__content__item img{display:block;border:7px solid #e8dbb1}
 .hotelNestorest_Facilities{padding:80px 0;overflow:hidden;position:relative}
 .hotelNestorest_Facilities::before{content:'';background:#f1f1f1;width:1071px;height:856px;position:absolute;top:0;left:0}
 .hotelNestorest_Facilities .hotelNestorest_Facilities__content{position:relative;display:grid;grid-template-columns:1fr 567px;gap:100px}
@@ -227,4 +230,7 @@ body.menu-open .header-menu__nav{left:0}
 .footer-main__content__item:nth-child(1){padding-right:0}
 .footer-main__content__item:nth-child(3){padding-left:0}
 .footer-main__content__item:nth-child(2){margin:0 -15px}
+.hotelNestorest_Desc__left .hotelNestorest_Desc__content__item::after{width:60%;height:60%}
+.hotelPhoto_Gallery .swiper-button-next,.hotelPhoto_Gallery .swiper-button-prev{width:38px;height:38px;border-radius:38px}
+.hotelPhoto_Gallery .swiper-button-next::after,.hotelPhoto_Gallery .swiper-button-prev::after{font-size:16px}
 }
